@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import api from "../../service/api";
 import "./filme-info.css";
+import { toast } from "react-toastify";
+
 
 export default function Filme() {
   const { id } = useParams();
@@ -37,12 +39,13 @@ export default function Filme() {
     );
 
     if (hasFilme) {
-      alert("Você ja possui esse filme salvo");
+      toast.info("Você ja possui esse filme salvo")
       return;
     }
     filmesSalvos.push(filme);
     localStorage.setItem('filmes', JSON.stringify(filmesSalvos));
-    alert("Filme salvo com sucesso.");
+    toast.success("Filme salvo com sucesso.")
+    
   }
 
   if (loading) {
