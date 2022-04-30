@@ -8,8 +8,8 @@ Projeto simples para  massificar os conceitos do ReactJS.
 
 ## Como  baixar e rodar na sua máquina?
 Você pode acessar o projeto ja rodando pela Netlify pelo link : https://joel-maciel.netlify.app/   ou 
- pode criar um pasta no diretório  de sua escolha como o /C: dar o comando git clone https://github.com/JoelMaciel/Movies.git
+ pode criar um pasta no diretório  de sua escolha como o /C: dar o comando " git clone https://github.com/JoelMaciel/Movies.git " ,
  ao fazer o clone abra um terminal  de sua escolha dentro da pasta que foi clonado o projeto e de o comando "yarn".
- Espere ele baixar os pacotes do projeto e quando finalizar o comando 'yarn start" para rodar o projeto e abrir  no browser.
+ Espere ele baixar os pacotes do projeto e quando finalizar  dê o  comando 'yarn start" para rodar o projeto e abrir  no browser.
 
 
