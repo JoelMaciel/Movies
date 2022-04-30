@@ -5,6 +5,7 @@ Você pode adicionar um filme a sua lista de favoritos como tambem pode ver os d
 O botão Trailer ao ser clicado leva até a pagina do YouTube  onde se pode ver o trailer do filme.
 Os filmes salvos ficam gravados no Localstorage do navegador.
 Projeto simples para  massificar os conceitos do ReactJS.
+Ainda falta  ajustar  o projeto com a responsividade para telas menores e Mobile........ em construçao.
 
 ## Como  baixar e rodar na sua máquina?
 Você pode acessar o projeto ja rodando pela Netlify pelo link : https://joel-maciel.netlify.app/   ou 
